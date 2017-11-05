@@ -1,0 +1,23 @@
+* Make a new folder named "Animals"
+mkdir Animals
+
+* Inside of "Animals" add two directories: "AwesomeAnimals" and "SketchyAnimals"
+mkdir Animals/AwesomeAnimals Animals/SketchyAnimals
+
+* Inside of "AwesomeAnimals" add the following files: "Capybara.js", "ArticFox.html", and "TreeFrog.txt"
+touch Animals/AwesomeAnimals/Capybara.js Animals/AwesomeAnimals/ArticFox.html Animals/AwesomeAnimals/TreeFrog.txt
+
+* Inside of "SketchyAnimals" add the folowing files: "BrownRecluse.html" and "BulletAnt.js"
+touch Animals/SketchyAnimals/BrownRecluse.html Animals/SketchyAnimals/BulletAnt.js
+
+* Inside of "SketchyAnimals" create a "Snakes" directory.
+mkdir Animals/SketchyAnimals/Snakes
+
+* Inside the "Snakes" director create the following files: "Cobra.css" and "ReticulatedPython.py"
+touch Animals/SketchyAnimals/Snakes/Cobra.css Animals/SketchyAnimals/Snakes/ReticulatedPython.py
+
+* You have a change of heart and decide that Bullet Ants are no longer sketchy. Remove the "BulletAnt.js" file
+rm Animals/SketchyAnimals/BulletAnt.js 
+
+* All animal life goes extinct. Delete the entire "Animals" directory
+rm -rf Animals/
