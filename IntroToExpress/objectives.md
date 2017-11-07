@@ -19,3 +19,13 @@
 * Review and existing app (DogDemo)
 * Review HTTP response/request lifecycle
 * Create our own simple Express app
+* 
+
+
+#NPM Init and Package.json
+* Use the '--save' flag to install packages
+    * Take package name and version and save it into package.json
+* Explain what the package.json file does
+    * Holds metadata about the project
+    * Contains dependencies which are a recipe of ingredients needed for the library
+* Use 'npm init' to create a new package.json
