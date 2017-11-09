@@ -7,3 +7,18 @@
     * Useful for filling out templates with information specific to user
 * Pass variables to EJS templates
     * Pass variables to template using an object in res.render()
+
+#EJS Control Flow
+
+* Show examples of control flow in EJS templates
+* Write if statements in an EJS file
+* Write loops in an EJS file
+
+Loop through all posts
+    make an entry div
+        title
+        tagline
+        ...
+
+<%= %> - render returned value to page
+<% %> - for pure logic like if statements, just runs the code
