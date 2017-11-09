@@ -29,3 +29,11 @@
     * Holds metadata about the project
     * Contains dependencies which are a recipe of ingredients needed for the library
 * Use 'npm init' to create a new package.json
+
+#More Routing
+* Show the '*' route matcher
+* Write routes containing route parameters
+    * Use : to match a pattern
+* Discuss route order
+    * First route that matches is the only one that is run
+    * So the catchall route would override everything if defined first
