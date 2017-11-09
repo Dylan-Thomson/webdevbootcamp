@@ -7,28 +7,27 @@ app.get("/", function(req, res) {
 });
 
 app.get("/speak/:animal", function(req, res) {
-    var animal = req.params.animal;
-    var speak;
-    if(animal == "pig") {
-        speak = "'Oink'";
+    var animals = {
+        pig: "Oink",
+        cow: "Moo",
+        dog: "Woof! Woof!",
+        cat: "Meow",
+        goldfish: "..."
     }
-    else if(animal == "cow") {
-        speak = "'Moo'";
-    }
-    else if(animal == "dog") {
-        speak = "'Woof! Woof!'"
-    }
-    res.send("The " + animal + " says " + speak);
+    var animal = req.params.animal.toLowerCase();
+    
+    res.send("The " + animal + " says '" + animals[animal] + "'");
 });
 
-app.get("/repeat/:str/:num", function(req, res) {
-    var str = req.params.str;
-    var num = req.params.num;
+app.get("/repeat/:msg/:times", function(req, res) {
+    var msg = req.params.msg;
+    var times = Number(req.params.times);
     var output = "";
     
-    for(var i = 0; i < num; i++) {
-        output += str + " ";
+    for(var i = 0; i < times; i++) {
+        output += msg + " ";
     }
+    
     res.send(output);
 });
 
