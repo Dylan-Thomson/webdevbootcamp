@@ -1,4 +1,4 @@
-#Introduction to Express
+# Introduction to Express
 
 * What is a framework? How is it different from a library?
     * Inversion of control
@@ -14,7 +14,7 @@
     * As opposed to Rails which is heavyweight (it does a lot for you)
     * Lightweight means we will learn a lot more about how things work
 
-#Our First Express App
+# Our First Express App
 
 * Review and existing app (DogDemo)
 * Review HTTP response/request lifecycle
@@ -22,7 +22,7 @@
 * 
 
 
-#NPM Init and Package.json
+# NPM Init and Package.json
 * Use the '--save' flag to install packages
     * Take package name and version and save it into package.json
 * Explain what the package.json file does
@@ -30,7 +30,7 @@
     * Contains dependencies which are a recipe of ingredients needed for the library
 * Use 'npm init' to create a new package.json
 
-#More Routing
+# More Routing
 * Show the '*' route matcher
 * Write routes containing route parameters
     * Use : to match a pattern

@@ -1,4 +1,4 @@
-#Intro to Node
+# Intro to Node
 
 * What is Node?
 * Why are we learning it?
@@ -7,7 +7,7 @@
 * (it doesn't matter)
     * We are learning web development, not specific technologies.
 
-#Using Node
+# Using Node
 
 * Interact with Node Console
     * REPL 
