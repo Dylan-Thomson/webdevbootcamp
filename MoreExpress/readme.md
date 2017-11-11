@@ -1,4 +1,4 @@
-#Rendering HTML and Templates
+# Rendering HTML and Templates
 
 * Use res.render() to render HTML (from an EJS file)
     * Must use views directory
@@ -8,17 +8,14 @@
 * Pass variables to EJS templates
     * Pass variables to template using an object in res.render()
 
-#EJS Control Flow
+# EJS Control Flow
 
 * Show examples of control flow in EJS templates
 * Write if statements in an EJS file
 * Write loops in an EJS file
 
-Loop through all posts
-    make an entry div
-        title
-        tagline
-        ...
+# Styles and Partials
 
-<%= %> - render returned value to page
-<% %> - for pure logic like if statements, just runs the code
+* Show how to properly include public assets
+* Properly configure our app to use EJS
+* Use partials to dry up our code!
