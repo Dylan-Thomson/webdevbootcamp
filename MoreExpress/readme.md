@@ -25,3 +25,4 @@
 * Write post routes and test with Postman
 * Use a form to send a post request
 * Use body parser to get form data
+    * Takes req.body and passes it as an object
