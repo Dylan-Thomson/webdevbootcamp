@@ -25,3 +25,25 @@
     * chmod a+x mongod
     * ./mongod to start, ctrl+c to end
     * Run in separate terminal and work in another terminal
+
+# Our First Mongo Commands
+* mongod
+    * Start mongo daemon
+* mongo
+    * Start mongo shell
+* help
+    * Basic command/feature list
+* show dbs
+    * Show local databases
+* use
+    * Use existing database or create new database
+* insert
+    * db.dogs.insert({name: "Rusty", breed: "Mutt"})
+* find
+    * db.dogs.find() - return all dogs
+    * db.dogs.find({breed: "Mutt"}) - return dogs with breed "Mutt"
+* update
+    * db.dogs.update({name: "Rusty"}, {$set: {name: "Tater", isCute: true}}) - Update Rusty's name to Tater and add a new property called isCute
+* remove
+    * db.dogs.remove({breed: "Poodle"}) - Remove all dogs with breed "Poodle"
+    * .limit(1) - remove only one
