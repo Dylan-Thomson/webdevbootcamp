@@ -47,3 +47,10 @@
 * remove
     * db.dogs.remove({breed: "Poodle"}) - Remove all dogs with breed "Poodle"
     * .limit(1) - remove only one
+
+# Mongoose
+* What is Mongoose?
+    * Package that helps us interact with MongoDB
+    * Just like jQuery, not necessary but can make things easier
+* Why are we using it?
+* Interact with a Mongo Database using Mongoose
